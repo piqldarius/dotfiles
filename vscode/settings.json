@@ -1,0 +1,126 @@
+{
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "git.confirmSync": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "catppuccin-frappe",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.theme": "specific",
+  "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+  "dotnet.inlayHints.enableInlayHintsForParameters": false,
+  "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+  "dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+  "extensions.ignoreRecommendations": true,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "cSpell.userWords": [
+    "ASPNET",
+    "avcheck",
+    "catppuccin",
+    "chakra",
+    "DRAMMEN",
+    "esbenp",
+    "Exiftool",
+    "fanout",
+    "ffprobe",
+    "gswin",
+    "loglevel",
+    "Magick",
+    "matroska",
+    "nokey",
+    "NOOUTERSAVE",
+    "NOPAUSE",
+    "noprint",
+    "NOPROMPT",
+    "normalisation",
+    "normalise",
+    "Normalised",
+    "Organisation",
+    "Organisations",
+    "outdir",
+    "pckg",
+    "PDFA",
+    "pdfaps",
+    "pdfwrite",
+    "Piql",
+    "rabbitmq",
+    "Resizer",
+    "soffice",
+    "srgb",
+    "tailwindcss",
+    "tanstack",
+    "Testcontainers",
+    "typesense",
+    "vframes",
+    "Xunit"
+  ],
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": ["!Module"]
+  },
+  "terminal.integrated.altClickMovesCursor": false,
+  "window.zoomLevel": 1,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.centeredLayoutAutoResize": false,
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [{}],
+  
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["workbench.action.toggleSidebarVisibility"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.terminal.toggleTerminal"],
+      "silent": false
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.showCommands"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "?"],
+      "commands": ["workbench.action.quickOpen"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before" : ["<leader>", "n", "f"],
+      "commands": ["workbench.action.files.newUntitledFile"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "c4.diagram.plantuml.enabled": true,
+  "c4.export.plantuml.dir": "${workspaceFolder}/docs",
+  "prisma.showPrismaDataPlatformNotification": false
+}
